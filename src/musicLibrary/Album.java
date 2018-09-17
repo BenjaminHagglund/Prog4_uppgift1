@@ -5,7 +5,7 @@ import java.util.List;
 public class Album extends Library{
 
     String name;
-    List<Song> songList;
+    List<SoundClip> songList;
     List<Album> albumList;
 
 
@@ -33,13 +33,13 @@ public class Album extends Library{
 
     // Method described in Library Class
     @Override
-    public void addSong(Album addingToAlbum, Song song) {
+    public void addSong(Album addingToAlbum, SoundClip song) {
 
     }
 
     // Method described in Library Class
     @Override
-    public void deleteSong(Song song) {
+    public void deleteSong(SoundClip song) {
 
     }
 

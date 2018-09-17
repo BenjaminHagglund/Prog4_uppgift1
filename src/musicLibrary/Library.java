@@ -4,7 +4,7 @@ import java.util.List;
 
 public abstract class Library {
 
-    List<Song> rootSongList;
+    List<SoundClip> rootSongList;
     List<Album> rootAlbumList;
 
 
@@ -16,7 +16,7 @@ public abstract class Library {
     Initialize Constructor
     Input: Imported Albums list and imported Song list
     */
-    public Library(List<Song> rootSongList, List<Album> rootAlbumList) {
+    public Library(List<SoundClip> rootSongList, List<Album> rootAlbumList) {
         this.rootSongList = rootSongList;
         this.rootAlbumList = rootAlbumList;
     }
@@ -37,13 +37,13 @@ public abstract class Library {
     Adding song to album
     Input: Album that song will be added to and Song that will be added
      */
-    public abstract void addSong(Album addingToAlbum, Song song );
+    public abstract void addSong(Album addingToAlbum, SoundClip song );
 
     /*
     Deleting song
     Input: Song that you want deleted
      */
-    public abstract void deleteSong(Song song);
+    public abstract void deleteSong(SoundClip song);
 
 
 }

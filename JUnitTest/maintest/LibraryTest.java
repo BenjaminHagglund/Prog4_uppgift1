@@ -1,27 +1,18 @@
 package maintest;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Test;
-
-import musicLibrary.Album;
-import musicLibrary.Song;
+import musicLibrary.SoundClip;
 
 class LibraryTest {
 	String artist = "metallica";
 	
 	@Test
 	void getNametest() {
-		Song test = new Song();
+		SoundClip test = new SoundClip(null);
 		test.setName("metallica");
 		String output = test.getName();
 		assertEquals("metallica",output);
-	}
-	@Test
-	void newAlbumtest() {
-		Album rootAlbum = new Album();
-		Library.newAlbum()
 	}
 
 }
