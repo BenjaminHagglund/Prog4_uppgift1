@@ -4,8 +4,8 @@ import java.util.List;
 
 public abstract class Library {
 
-    List<SoundClip> rootSongList;
-    List<Album> rootAlbumList;
+    private List<SoundClip> rootSongList;
+    private List<Album> rootAlbumList;
 
 
     public Library() {
@@ -45,5 +45,21 @@ public abstract class Library {
      */
     public abstract void deleteSong(SoundClip song);
 
+	public List<SoundClip> getRootSongList() {
+		return rootSongList;
+	}
 
+	public void setRootSongList(List<SoundClip> rootSongList) {
+		this.rootSongList = rootSongList;
+	}
+
+	public List<Album> getRootAlbumList() {
+		return rootAlbumList;
+	}
+
+	public void setRootAlbumList(List<Album> rootAlbumList) {
+		this.rootAlbumList = rootAlbumList;
+	}
+
+    
 }
