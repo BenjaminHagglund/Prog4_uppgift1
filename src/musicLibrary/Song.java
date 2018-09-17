@@ -4,10 +4,11 @@ import java.util.List;
 
 public class Song extends Album {
 
-    String name;
-    String artist;
+    private String name;
+    private String artist;
 
     public Song() {
+    	super();
     }
 
     public void setName(String name) {

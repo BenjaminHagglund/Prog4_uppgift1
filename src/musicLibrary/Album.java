@@ -8,9 +8,8 @@ public abstract class Album extends Library{
     List<Song> songList;
     List<Album> albumList;
 
-    public Album(String name) {
+    public Album() {
         super();
-        this.name = name;
     }
 
     @Override
