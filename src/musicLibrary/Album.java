@@ -2,35 +2,44 @@ package musicLibrary;
 
 import java.util.List;
 
-public abstract class Album extends Library{
+public class Album extends Library{
 
     String name;
     List<Song> songList;
     List<Album> albumList;
 
+    // Empty constructor
+    public Album(){
+        super();
+    }
+
+    // Constructor
     public Album(String name) {
         super();
         this.name = name;
     }
 
+    // Method described in Library Class
     @Override
-    void newAlbum(Album addAlbumTo) {
+    public void newAlbum(String name, Album album) {
 
     }
 
-
+    // Method described in Library Class
     @Override
-    void deleteAlbum(Album album) {
+    public void deleteAlbum(Album album) {
 
     }
 
+    // Method described in Library Class
     @Override
-    void addSong(Album addingToAlbum, Song song) {
+    public void addSong(Album addingToAlbum, Song song) {
 
     }
 
+    // Method described in Library Class
     @Override
-    void deleteSong(Song song) {
+    public void deleteSong(Song song) {
 
     }
 

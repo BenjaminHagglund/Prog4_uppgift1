@@ -9,8 +9,9 @@ class Albumtest {
 	@Test
 	void test() {
 		Song test = new Song();
-		String output = test.getArtist();
-		AssertEquals(asfdairf,output);
+		test.setArtist("Metalica");
+		String output = test.getArtistName();
+		AssertEquals("Metalica",output);
 	}
 
 }
