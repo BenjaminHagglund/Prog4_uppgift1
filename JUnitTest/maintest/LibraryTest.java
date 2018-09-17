@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 import musicLibrary.Album;
+import musicLibrary.Library;
 import musicLibrary.Song;
 
 class LibraryTest {
@@ -19,9 +20,10 @@ class LibraryTest {
 		assertEquals("metallica",output);
 	}
 	@Test
-	void newAlbumtest() {
-		Album rootAlbum = new Album();
-		Library.newAlbum()
+	void deleteAlbumtest() {
+		Album test = new Album(artist);
+		Album.deleteAlbum(test);
+		
 	}
 
 }

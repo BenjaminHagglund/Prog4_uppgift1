@@ -19,11 +19,6 @@ public class Album extends Library{
         super();
     }
 
-    // Method described in Library Class
-    @Override
-    public void newAlbum(String name, Album album) {
-
-    }
 
     // Method described in Library Class
     @Override

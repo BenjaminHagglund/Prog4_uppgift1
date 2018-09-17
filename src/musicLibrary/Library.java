@@ -21,11 +21,6 @@ public abstract class Library {
         this.rootAlbumList = rootAlbumList;
     }
 
-    /*
-    Creating a new album
-    Input: String of album name and head album were the new album will be created
-    */
-    public abstract void newAlbum(String name, Album album);
 
     /*
     Deleting album and moving content to head album.
