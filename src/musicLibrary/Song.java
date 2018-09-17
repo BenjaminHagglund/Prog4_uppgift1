@@ -4,21 +4,13 @@ import java.util.List;
 
 public class Song extends Album {
 
-<<<<<<< HEAD
     private String name;
     private String artist;
-=======
-    String name;
-    String artistName;
->>>>>>> 882b4d53e7fed73db6df220b13b993e9dbd1a6f3
+
 
     // Empty constructor
     public Song() {
-<<<<<<< HEAD
     	super();
-=======
-        super();
->>>>>>> 882b4d53e7fed73db6df220b13b993e9dbd1a6f3
     }
 
     // Setting song name
@@ -28,7 +20,7 @@ public class Song extends Album {
 
     // Setting artist name
     public void setArtist(String artistName) {
-        this.artistName = artistName;
+        this.artist = artistName;
     }
 
     // Getting song name
@@ -38,6 +30,6 @@ public class Song extends Album {
 
     // Getting artist name
     public String getArtistName() {
-        return artistName;
+        return artist;
     }
 }

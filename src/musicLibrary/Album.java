@@ -8,9 +8,7 @@ public class Album extends Library{
     List<Song> songList;
     List<Album> albumList;
 
-<<<<<<< HEAD
-    public Album() {
-=======
+
     // Empty constructor
     public Album(){
         super();
@@ -18,7 +16,6 @@ public class Album extends Library{
 
     // Constructor
     public Album(String name) {
->>>>>>> 882b4d53e7fed73db6df220b13b993e9dbd1a6f3
         super();
     }
 
